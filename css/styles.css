@@ -1,2 +1,107 @@
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color: #ffffff;
+    color: #757575;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+ /* Лого */
+.logo {
+    color: #000000;
+}
+
+.web-logo {
+    color: #2196F3;
+}
+
+.studio-logo {
+    color: #ffffff;
+}
+
+/* Навігація сайту */
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Контакти */
+.email,
+.telnumber {
+    color: #757575;
+}
+
+.email:hover,
+.telnumber:hover,
+.email:focus,
+.telnumber:focus {
+    color: #2196F3;
+}
+
+/* Мейн */
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    color: #ffffff;
+}
+
+/* Наші особливості */
+.section {
+    color: ;
+}
+
+.features-title {
+    color: #212121;
+    text-transform: uppercase;
+}
+
+/* Чем мы занимаемся + Команда */
+.employment,
+.team {
+    color: #212121;
+}
+
+.team-section {
+    background: #F5F4FA;
+}
+
+.team-title {
+    color:#212121;
+}
+
+/* Підвал */
+
+.footer-section {
+    background: #2F303A;
+}
+
+.address {
+    color: #F5F4FA;
+    font-style: normal;
+}
+
+
+/* Палітра */
+/* чорний основний - : #212121
+додатковий чорний (лого)- #000000
+сірий - #757575
+білий - #FFFFFF
+блакитний (акцент) - #2196F3 
+основний background: #FFFFFF; 
+додаткові:
+background-1: #F5F4FA;
+background-2:#2F303A;*/
+

@@ -7,6 +7,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css\styles.css">
 		<title>Портфолио</title>
 	</head>
 	<body>
@@ -15,23 +16,23 @@
 			<!-- Меню навигации -->
 			<nav>
 				<!-- Логотип -->
-				<a href="./">WebStudio</a>
-				<ul>
+				<a href="./index.html" class="logo"><span class="web-logo">Web</span>Studio</a>
+				<ul class="site-nav list">
 					<!-- Меню сайта -->
 					<li>
-						<a href="./index.html">Студия</a>
+						<a href="./index.html" class="link">Студия</a>
 					</li>
 					<li>
-						<a href="./portfolio.html">Портфолио</a>
+						<a href="./portfolio.html" class="link">Портфолио</a>
 					</li>
 					<li>
-						<a href="">Контакты</a>
+						<a href="" class="link">Контакты</a>
 					</li>
 				</ul>
 			</nav>
 			<!-- Контакты -->
-			<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-			<a href="tel:+380961111111">+38 096 111 11 11</a>
+			<a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+			<a href="tel:+380961111111" class="telnumber">+38 096 111 11 11</a>
 		</header>
 		<!-- Мейн -->
 		<main>
@@ -39,7 +40,7 @@
 			<section>
 				<h1 hidden>Наше портфолио</h1>
 				<!-- Список фильтров -->
-				<ul>
+				<ul class="list">
 					<li>
 						<button type="button">Все</button>
 					</li>
@@ -57,7 +58,7 @@
 					</li>
 				</ul>
 				<!-- Список примеров работ -->
-				<ul>
+				<ul class="list">
 					<li>
 						<a href="">
 							<img src="./images/technocryak.jpg" width="370" height="294" alt="MacBook Pro с открытым на нем сайтом" />
@@ -135,12 +136,12 @@
 			</section>
 		</main>
 		<!-- Подвал -->
-		<footer>
-			<a href="./">WebStudio</a>
-			<address>
+		<footer class="footer-section">
+			<a href="./index.html" class="logo"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
+			<address class="address">
 				<p>г. Киев, пр-т Леси Украинки, 26</p>
-				<a href="mailto:info@example.com">info@example.com</a>
-				<a href="tel:+380991111111">+38 099 111 11 11</a>
+				<a href="mailto:info@example.com" class="email">info@example.com</a>
+				<a href="tel:+380991111111" class="telnumber">+38 099 111 11 11</a>				
 			</address>
 		</footer>
 	</body>
