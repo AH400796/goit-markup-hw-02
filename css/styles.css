@@ -59,16 +59,12 @@ a {
 }
 
 /* Наші особливості */
-.section {
-    color: ;
-}
-
 .features-title {
     color: #212121;
     text-transform: uppercase;
 }
 
-/* Чем мы занимаемся + Команда */
+/* Наша зайнятість + Команда */
 .employment,
 .team {
     color: #212121;
@@ -81,9 +77,31 @@ a {
 .team-title {
     color:#212121;
 }
+.work {
+    color: #212121;
+}
+
+/* Портфоліо */
+button {
+    color: #212121;
+    background: #F5F4FA;    
+}
+
+button:hover,
+button:focus {
+    color: #ffffff;
+    background: #2196F3;
+}
+
+.filter-title {
+    color: #757575;
+}
+
+.project-title {
+    color: #212121;
+}
 
 /* Підвал */
-
 .footer-section {
     background: #2F303A;
 }
@@ -99,7 +117,7 @@ a {
 додатковий чорний (лого)- #000000
 сірий - #757575
 білий - #FFFFFF
-блакитний (акцент) - #2196F3 
+блакитний (акцент) -#2196F3  
 основний background: #FFFFFF; 
 додаткові:
 background-1: #F5F4FA;
