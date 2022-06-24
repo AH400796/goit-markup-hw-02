@@ -95,8 +95,6 @@ a {
 .team-member {
   color: var(--secondary-text-color);
 }
-.team-work {
-}
 
 /* Портфоліо */
 .filter-button {
@@ -119,7 +117,7 @@ a {
 }
 
 /* Підвал */
-.footer-section {
+.footer {
   background: var(--third-background-color);
 }
 
