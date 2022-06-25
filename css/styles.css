@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   background-color: var(--white-text-color);
   color: var(--primery-text-color);
