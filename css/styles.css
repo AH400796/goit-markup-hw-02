@@ -6,6 +6,7 @@
   --white-text-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --third-background-color: #2f303a;
+  --address-contacts-color: color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -20,6 +21,8 @@ a {
 }
 
 button {
+  font-family: 'Roboto';
+  font-style: normal;
   cursor: pointer;
   border: none;
 }
@@ -69,7 +72,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* Контакти */
+/* Контакти + Підвал */
 
 .email,
 .telnumber {
@@ -85,6 +88,25 @@ button {
 .email:focus,
 .telnumber:focus {
   color: var(--accent-color);
+}
+
+.footer {
+  background: var(--third-background-color);
+}
+
+.address p,
+.address .email,
+.address .telnumber {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--address-contacts-color);
+}
+
+.address p {
+  color: var(--white-text-color); 
 }
 
 /* Мейн */
@@ -192,21 +214,4 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
-}
-
-/* Підвал */
-
-.footer {
-  background: var(--third-background-color);
-}
-
-.address {
-  font-style: normal;
-  color: var(--secondary-background-color);
-}
-
-.adress p {
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
 }
