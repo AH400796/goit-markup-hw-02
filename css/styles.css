@@ -83,17 +83,6 @@ button {
   color: var(--primery-text-color);
 }
 
-.email:hover,
-.telnumber:hover,
-.email:focus,
-.telnumber:focus {
-  color: var(--accent-color);
-}
-
-.footer {
-  background: var(--third-background-color);
-}
-
 .address p,
 .address .email,
 .address .telnumber {
@@ -107,6 +96,17 @@ button {
 
 .address p {
   color: var(--white-text-color); 
+}
+
+.email:hover,
+.telnumber:hover,
+.email:focus,
+.telnumber:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background: var(--third-background-color);
 }
 
 /* Мейн */
