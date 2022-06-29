@@ -16,11 +16,12 @@ body {
   color: var(--primery-text-color);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-button {
+.hero-button,
+.filter-button {
   font-family: 'Roboto';
   font-style: normal;
   cursor: pointer;
