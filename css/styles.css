@@ -1,4 +1,8 @@
 :root {
+  /* Fonts */
+  --general-text-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  /* Colors */
   --primery-text-color: #757575;
   --secondary-text-color: #212121;
   --black-logo-color: #000000;
@@ -8,9 +12,9 @@
   --third-background-color: #2f303a;
   --address-contacts-color: rgba(255, 255, 255, 0.6);
 }
-
+/* General properties */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--general-text-font);
   font-style: normal;
   background-color: var(--white-text-color);
   color: var(--primery-text-color);
@@ -19,7 +23,9 @@ body {
 .link {
   text-decoration: none;
 }
-
+.list {
+  list-style: none;
+}
 .hero-button,
 .filter-button {
   font-family: 'Roboto';
@@ -27,15 +33,10 @@ body {
   cursor: pointer;
   border: none;
 }
-
-.list {
-  list-style: none;
-}
-
 /* Лого */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
